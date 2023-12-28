@@ -23,8 +23,8 @@ const ProductDetails=()=>{
                         <h5 className={'card-title'}>{product.title}</h5>
                     </div>
                     <div className="card-body">
-                        <p className="card-text">{product.description}</p>
-                        <p className="card-text">{product.price}</p>
+                        <p className="card-text">Mô tả: {product.description}</p>
+                        <p className="card-text">Giá: {product.price}</p>
                         <Link to={'/products/home'} ><button className="btn btn-primary">Quay Lại</button></Link>
                     </div>
                 </div>
